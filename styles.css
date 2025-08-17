@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* --- Main App Theme --- */
+body {
+    background-color: #F0F2F6; /* Light gray background */
+}
+
+/* --- Exam UI Specifics --- */
+.exam-header {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exam-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1E3A8A; /* Dark Blue */
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #D32F2F; /* Red */
+    background-color: #FFEBEE;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+/* --- Question Palette Styling --- */
+.palette-container {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.palette-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 10px;
+}
+
+/* Make Streamlit buttons square for the palette */
+.stButton>button {
+    width: 100% !important;
+    height: 40px !important;
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+# requirements.txt
+streamlit
+ollama
+requests
+ddgs
+chromadb
+sentence-transformers
+pandas
+streamlit-modal
+streamlit-autorefresh
