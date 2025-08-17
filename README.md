@@ -63,7 +63,7 @@ Follow these steps to get TestCrew AI running on your local machine.
 1.  **Clone the repository (or download the source code):**
 
     ```bash
-    git clone https://github.com/your-username/testcrew-ai.git
+    git clone https://github.com/ThePunisher-17/testcrew-ai.git
     cd testcrew-ai
     ```
 
@@ -128,3 +128,4 @@ The application should now be open and running in your web browser\!
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
